@@ -1,0 +1,26 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="posts">
+  {% for post in site.posts
+    limit:site.num_home_posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+
+  <hr>
+  <div class="home-read-more">
+    <a href="{{ "/blog/archive" | prepend:site.baseurl }}" class="btn btn-primary btn-block btn-lg">View All {{ site.posts | size }} Articles →</a>
+  </div>
+
+</div>
