@@ -9,9 +9,11 @@ title: Archive
   <p class="author">
     <span class="date">{{ post.date }}</span>
   </p>
-  <div class="content">
-    {{ post.content }}
+  <div class="entry">
+    {{ post.excerpt }}
   </div>
+
+  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 {% endfor %}
 
 <!-- Pagination links -->
