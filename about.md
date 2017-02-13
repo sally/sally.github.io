@@ -18,6 +18,8 @@ I love Tarantino films, and my favorite is Inglourious Basterds.
 
 Some of my favorite video games series include Legend of Zelda, Dark Souls, .hack, and Guilty Gear.
 
+The most recent thing I finished playing is a VN-style bartender simulation game called [VA-11 HALL-A](http://store.steampowered.com/app/447530/).
+
 ### Contact me
 
 [parkyngj@gmail.com](mailto:parkyngj@gmail.com)
