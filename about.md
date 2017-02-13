@@ -10,6 +10,7 @@ The Jekyll Now theme came with this about page, where I suppose I'm to include s
 
 My favorite colors are pink, mint, black, and white.
 
+My favorite animals are owls, lions, and bears.
 
 ### Contact me
 
