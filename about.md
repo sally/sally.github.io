@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+The Jekyll Now theme came with this about page, where I suppose I'm to include some information about myself.
 
-### More Information
+### Stuff
 
-A place to include any other types of information that you'd like to include about yourself.
+My favorite colors are pink, mint, black, and white.
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[parkyngj@gmail.com](mailto:parkyngj@gmail.com)

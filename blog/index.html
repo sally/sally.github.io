@@ -9,6 +9,9 @@ title: Blog
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <p class="author">
+        <span class="date">{{ post.date }}</span>
+      </p>
 
       <div class="entry">
         {{ post.excerpt }}
