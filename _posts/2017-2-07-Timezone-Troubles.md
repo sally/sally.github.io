@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Timezone Troubles
+title: Timezone Troubles and UTC Offsets
 date: 2017-02-07
 ---
 
