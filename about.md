@@ -8,7 +8,7 @@ The Jekyll Now theme came with this about page, where I suppose I'm to include s
 
 ### Stuff
 
-My favorite colors are pink, mint, black, and white.
+My favorite colors are mint, black, and white.
 
 My favorite animals are owls, lions, and bears.
 
@@ -19,6 +19,8 @@ I love Tarantino films, and my favorite is Inglourious Basterds.
 Some of my favorite video games series include Legend of Zelda, Dark Souls, .hack, and Guilty Gear.
 
 The most recent thing I finished playing is a VN-style bartender simulation game called [VA-11 HALL-A](http://store.steampowered.com/app/447530/).
+
+Right now, I'm playing [Salt and Sanctuary](http://store.steampowered.com/agecheck/app/283640/).
 
 ### Contact me
 
