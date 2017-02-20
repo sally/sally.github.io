@@ -18,11 +18,11 @@ Step 1 was to modify the migration. We would have to turn the primary key off ma
 
 ```ruby
 # in the employers table creation migration
-...
+# ...
 create_table :employers, id: false do |t|
-   ...
+   # ...
 end
-...
+# ...
 ```
 
 Unfortunately, it's slightly hard to set something that isn't an integer to a primary key without being a bit hacky. You could regularly do a `t.primary_key :field_name` inside of the `create_table` block which would indeed set your `field_name` to the primary key, but Postgres would automatically set the datatype as `integer`.
@@ -31,14 +31,16 @@ One work-around is this:
 
 ```ruby
 # in the employers table creation migration
+# ...
 def change
   create_table :employers, id: false do |t|
     t.string :external_uuid, null: false
-    ...
+    # ...
   end
 
   add_index :employers, :external_uuid, unique: true
 end
+# ...
 ```
 
 Checking our schema, we see that Postgres has detected the `external_uuid` field to be `not null` and also `UNIQUE` indices. As far as Postgres is concerned:
@@ -47,4 +49,4 @@ Checking our schema, we see that Postgres has detected the `external_uuid` field
 
 Our `external_uuid` is now the primary key of our `employers` table.
 
-(To be continued with how this translates into modifications for the Model, Routes, URI, etc.)
+(To be continued with how this translates into modifications for the Model, Relations, Routes, URI, etc.)
