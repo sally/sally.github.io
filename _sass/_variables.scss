@@ -1,0 +1,29 @@
+// Color scheme for light and dark modes.
+
+$light: #ff0066;
+$dark: #efb9c0;
+
+// Highlighting color for code block borders and language name.
+
+$code-light: #ff0066;
+$code-dark: #efb9c0;
+
+$message-green: #62bb47;
+$message-yellow: #fcb827;
+$message-orange: #f6821f;
+$message-red: #e03940;
+$message-purple: #953c96;
+$message-blue: #009ddc;
+
+$root-font-family: 'Open Sans', sans-serif;
+$code-font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$root-font-size: 16px;
+$root-line-height: 1.5;
+
+$body-color: rgba(0,0,0,.8);
+$body-bg: rgba(0,0,0,.03);
+$body-color-dark: #fdf3f4;
+$body-bg-dark: #1b1b1b;
+
+$large-breakpoint: 38em;
+$large-font-size: 16px;
