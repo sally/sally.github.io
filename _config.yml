@@ -3,7 +3,7 @@ title: test
 tagline: a dark mode friendly Jekyll theme
 url: https://sally.github.io
 paginate: 1
-baseurl: "https://sally.github.io"
+baseurl: ""
 permalink: :title/
 
 kramdown:
